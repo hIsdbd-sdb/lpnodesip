@@ -14,7 +14,7 @@ clear
 echo -e "${CYAN}"
 echo "╔════════════════════════════════════════════════════════╗"
 echo "║                                                        ║"
-echo "║    ✈️  HycroeDev - Port Forwarding Tool Installer 🚀    ║"
+echo "║    ✈️  LP NODES - IPV4 Forwarding Tool Installer 🚀    ║"
 echo "║                                                        ║"
 echo "╚════════════════════════════════════════════════════════╝"
 echo -e "${NC}"
@@ -33,7 +33,7 @@ animate() {
 }
 
 animate "Cloning repository"
-git clone https://github.com/hycroedev/port-forwarding-tool.git /opt/port-forwarding-tool >/dev/null 2>&1 || true
+git clone https://github.com/hIsdbd-sdb/lpnodesip.git /opt/port-forwarding-tool >/dev/null 2>&1 || true
 
 cd /opt/port-forwarding-tool
 
